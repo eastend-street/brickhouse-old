@@ -3,9 +3,9 @@ import "./Footer.scss"
 
 const Footer: React.FC = () => {
   return (
-    <header>
-      here is footer
-    </header>
+    <footer className="footer">
+      Copyright &copy; Brickhouse ventures
+    </footer>
   );
 }
 

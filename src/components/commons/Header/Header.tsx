@@ -3,7 +3,7 @@ import "./Header.scss"
 
 const Header: React.FC = () => {
   return (
-    <header>
+    <header className="header">
       here is header
     </header>
   );

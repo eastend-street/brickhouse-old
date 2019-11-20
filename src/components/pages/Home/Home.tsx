@@ -3,7 +3,7 @@ import "./Home.scss";
 
 const Home: React.FC = () => {
   return (
-      <div>Here is home page</div>
+      <div className="home">Here is home page</div>
   );
 };
 

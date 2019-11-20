@@ -6,7 +6,7 @@ import Footer from "../commons/Footer/Footer";
 import Home from "../pages/Home/Home";
 import Contact from "../pages/Contact/Contact"
 import NotFound from "../pages/NotFound/NotFound";
-
+import "./reset.css";
 import "./App.scss";
 
 const App: React.FC = () => {

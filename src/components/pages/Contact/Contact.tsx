@@ -3,7 +3,7 @@ import "./Contact.scss";
 
 const Contact: React.FC = () => {
   return (
-      <div>Here is Contact page</div>
+      <div className="contact">Here is Contact page</div>
   );
 };
 
