@@ -17,7 +17,6 @@ const App: React.FC = () => {
         <Route path="/" exact component={Home} />
         <Route path="/contact" exact component={Contact} />
         <Route  component={NotFound} />
-        <Footer />
       </Switch>
       <Footer />
     </BrowserRouter>
