@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
 
 const Header: React.FC = () => {
+  const [isOpen, useIsOpen] = useState(true);
   return (
     <>
       <header className="header">
-        <div className="menu">
+        <div className="header__menu">
           <ul>
             <li>
               <NavLink to="/about">About</NavLink>
@@ -21,6 +22,7 @@ const Header: React.FC = () => {
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
+          <div className="header__menu--hamburger">-</div>
         </div>
       </header>
     </>
