@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.scss";
+import Location from "../Location/Location";
 
 import { Grid } from "@material-ui/core";
 
@@ -12,7 +13,7 @@ const Contact: React.FC = () => {
           here is contact form
         </Grid>
         <Grid item xs={12} sm={7}>
-          here is location
+          <Location />
         </Grid>
       </Grid>
     </div>
