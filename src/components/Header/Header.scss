@@ -19,16 +19,15 @@
 }
 
 .header {
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
-  background-color: #000;
+  background-color: transparent;
   height: 4rem;
-  widows: 100%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
 
   a {
     text-decoration: none;
