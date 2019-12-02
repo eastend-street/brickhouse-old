@@ -1,13 +1,11 @@
-import React from "react";
-import "./Team.scss";
-import PersonSection from "./PersonSection";
+import React from 'react';
+import './Team.scss';
 import profilImage from "../../assets/images/profilImage.jpg";
 
-const Team: React.FC = () => {
-  return (
-    <div className="team">
-        <PersonSection/>
-        <div className="person-place-middle">
+const PersonSection: React.FC = () => {
+    return(
+        <>
+        <div className="person-place">
             <div className="person-img-field">
                     <img className="person-img" alt="profilpic" src={profilImage} height="170px"/>
                     <div>
@@ -18,9 +16,9 @@ const Team: React.FC = () => {
                 
             </div>
         </div>
-        <PersonSection/>
-    </div>
-  );
+        </>
+    )
 };
 
-export default Team;
+
+export default PersonSection;

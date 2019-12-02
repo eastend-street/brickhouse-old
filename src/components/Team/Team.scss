@@ -1,0 +1,45 @@
+.person-place {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    background-color:#068DC2;
+    box-shadow: 14px 7px 0px 0px  rgba(123,202,235,0.78);
+    margin: 10px;
+}
+
+.person-img-field{
+    margin-top: 0px;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+    .img-text{
+        color: white;
+        padding-top: 5px;
+    }
+
+    .person-img{
+        padding-top: 20px;
+    }
+}
+
+.person-text{
+    background-color: blue;
+}
+
+.person-place-middle {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    background-color:#068DC2;
+    box-shadow: -14px 7px 0px 0px rgba(123,202,235,0.78);
+    margin: 10px;
+    justify-content: flex-end;
+    float: right;
+}
