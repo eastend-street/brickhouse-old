@@ -1,8 +1,47 @@
-.footer {
-    background-color: #000;
-    color: #fff;
-    height: 30vh;
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
+.Footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  font-family: roboto;
+}
+
+.company-phone {
+  display: flex;
+}
+
+.phone-style {
+  padding-left: 1.5rem;
+}
+
+
+.phone-style a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.first-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logos {
+  position: relative;
+  will-change: top, left;
+  left: 42px;
+  top: 10px;
+}
+
+.address {
+  padding: 1rem;
 }
