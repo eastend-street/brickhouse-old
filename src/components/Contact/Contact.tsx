@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 import ContactForm from "../ContactForm/ContactForm"
-
+import Location from "../Location/Location";
 import { Grid } from "@material-ui/core";
 
 const Contact: React.FC = () => {
@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           <ContactForm/>
         </Grid>
         <Grid item xs={12} sm={7}>
-          here is location
+          <Location />
         </Grid>
       </Grid>
     </div>

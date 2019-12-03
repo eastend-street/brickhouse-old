@@ -7,34 +7,24 @@ const ContactForm: React.FC = () => {
 
       <div className="wrap-form">
 
-        <div className="name-100">
+        <h1 className = "contact_intro">Contact us for custom quote</h1>
 
-          <input className="c-name" type="text" name="Full-name" placeholder="Name"></input>
-
-        </div>
+        <input className="c-name" type="text" name="Full-name" placeholder="Name"></input>
 
         <br></br>
 
-        <div className="email-100">
-
-          <input className="mail" type="email" name="email" placeholder="Email"></input>
-
-        </div>
-        <br></br>
-
-        <div className="phone-100">
-
-          <input className="phoneNumber" type="text" name="phone" placeholder="Phone"></input>
-
-        </div>
+        <input className="mail" type="email" name="email" placeholder="Email"></input>
 
         <br></br>
 
-        <div className="message-100">
+        <input className="phoneNumber" type="text" name="phone" placeholder="Phone"></input>
 
-          <textarea className="comment" name="message" placeholder="Your quote..."></textarea>
+        <br></br>
 
-        </div>
+        <textarea className="comment" name="message" placeholder="Your quote..."></textarea>
+
+
+        <input className="submitButton" type="submit" value="Submit"></input>
 
       </div>
 
