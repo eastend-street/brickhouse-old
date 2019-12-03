@@ -1,16 +1,39 @@
-.c-name {
+.contact-form {
+    padding: 3rem;
+  .c-name {
     margin: 2rem 0;
-
-
-}
-.phoneNumber{
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .phoneNumber {
     margin: 2rem 0;
-
-}
-.contact-form{
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .mail{
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .comment{
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 60%;
+  }
+  .contact-form {
     margin-left: 10rem;
-}
-.wrap-form{
-    padding:2rem;
-    border: 1px solid blue;
+  }
+  .wrap-form {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
 }
