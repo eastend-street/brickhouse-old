@@ -1,8 +1,8 @@
 .person-place {
-    width: 50%;
-    height: 250px;
+    width: 60%;
+    height: 300px;
     display: flex;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color:#068DC2;
     box-shadow: 14px 7px 0px 0px  rgba(123,202,235,0.78);
     margin: 10px;
@@ -10,8 +10,9 @@
 
 .person-img-field{
     width: 200px;
-    height: 250px;
-    border-radius: 20px;
+    height: 260px;
+    padding: 20px;
+    border-radius: 30px;
     text-align: center;
     background-color: black;
 
@@ -28,27 +29,29 @@
 .person-text{
     color: white;
     font-size: small;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 10px;
 }
 
 .person-place-middle {
-    width: 50%;
-    height: 250px;
+    width: 60%;
+    height: 300px;
     display: flex;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color:black;
-    box-shadow: -14px 7px 0px 0px rgba(123,202,235,0.78);
-    margin: 10px;
+    box-shadow: -14px 7px 0px 0px #555555;
+    margin-bottom: 10px;
     justify-content: flex-end;
     float: right;
 }
 .person-img-field-middle {
     width: 200px;
-    height: 250px;
+    height: 260px;
+    padding: 20px;
     border-radius: 20px;
     text-align: center;
     background-color: #068DC2;
+
     .img-text-middle{
         color: white;
         padding-top: 10px;
@@ -82,4 +85,15 @@
     height: 50px;
     width: 290px;
     background-color: #068DC2;
+}
+
+
+@media only screen and (max-width: 699px) {
+    .person-text{
+        visibility: hidden;
+
+    }
+    .person-text:hover {
+        visibility: collapse;
+    }
 }
