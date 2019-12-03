@@ -6,6 +6,10 @@ import profilImage from "../../assets/images/profilImage.jpg";
 const Team: React.FC = () => {
   return (
     <div className="team">
+      <div className="team-title">
+        <p className="team-text" >Meet Our Team</p> 
+      </div>
+      <div className="team-shape"></div>
         <PersonSection/>
         <div className="person-place-middle">
             <div className="person-img-field">
