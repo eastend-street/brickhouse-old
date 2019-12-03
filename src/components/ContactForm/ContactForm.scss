@@ -1,0 +1,59 @@
+.contact-form {
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+    
+  .contact_intro{
+
+    font-size: 10px;
+    text-align: center;
+  }
+
+    
+  .c-name {
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .phoneNumber {
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .mail{
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .comment{
+    margin: 2rem 0;
+    border: 1px solid #068dc2;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 60%;
+  }
+  .contact-form {
+    margin-left: 10rem;
+  }
+  .wrap-form {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .submitButton{
+    width: 110px;
+    height: 44px;
+    background: linear-gradient(0deg, #068DC2, #068DC2);
+    border-radius: 50px;
+    color: white;
+    font-size: large;
+    margin: 0 3.5rem;
+
+  }
+}
