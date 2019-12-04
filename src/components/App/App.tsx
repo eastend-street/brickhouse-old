@@ -7,6 +7,7 @@ import Home from "../Home/Home";
 import Contact from "../Contact/Contact"
 import Team from "../Team/Team";
 import NotFound from "../NotFound/NotFound";
+import Advisor
 import "./reset.css";
 import "./App.scss";
 
