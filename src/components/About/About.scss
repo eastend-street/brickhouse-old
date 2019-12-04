@@ -1,0 +1,27 @@
+.about {
+  &___right-grid {
+    height: 100vh;
+    h2 {
+      font-size: 2rem;
+      font-size: bold;
+      width: 60%;
+      padding: 2rem 0 0 2rem;
+    }
+    .message1 {
+      background-color: #b1b7b9;
+      font-size: 1.5rem;
+      margin-top: 7rem;
+      width: 70%;
+      padding: 1rem;
+    }
+    .message2 {
+      background-color: #b1b7b9;
+      font-size: 1.5rem;
+      margin-top: 5rem;
+      width: 70%;
+      padding: 1.5rem 1rem;
+      text-align: right;
+      margin-left: auto;
+    }
+  }
+}
