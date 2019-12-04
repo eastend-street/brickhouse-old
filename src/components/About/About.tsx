@@ -2,12 +2,13 @@ import React from "react";
 import "./About.scss";
 
 import { Grid } from "@material-ui/core";
+import RightSection from "./RightSection/RightSection";
 
 const About: React.FC = () => {
   return (
     <div className="about">
       <Grid container>
-        <Grid item xs={12} sm={5} className="about___right-grid">
+        <Grid item xs={12} sm={5} className="about___left-grid">
           <h2>
             Brickhouse Ventures invests in Esports, Sports &amp; Entertainment
             Technologies.
@@ -22,7 +23,7 @@ const About: React.FC = () => {
           </div>
         </Grid>
         <Grid item xs={12} sm={7}>
-          <h3>We help with the build out and hiring of the management team</h3>
+          <RightSection />
         </Grid>
       </Grid>
     </div>
