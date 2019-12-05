@@ -10,10 +10,10 @@ const RightSection: React.FC = () => {
   return (
     <div className="right-section">
       <Grid container>
-        <Grid item xs={4} className="message1-grid">
+        <Grid item xs={6} sm={5} md={4} className="message1-grid">
           <h3>We help with the build out and hiring of the management team</h3>
         </Grid>
-        <Grid item xs={8} className="tennis-photo-grid">
+        <Grid item xs={6} sm={7} md={8} className="tennis-photo-grid">
           <img src={Tennis} alt="tennis" />
         </Grid>
       </Grid>
@@ -26,7 +26,7 @@ const RightSection: React.FC = () => {
         </Grid>
       </Grid>
       <Grid container justify="flex-end">
-        <Grid item xs={6} className="seat-photo-grid">
+        <Grid item xs={6} sm={7} md={6} className="seat-photo-grid">
           <img src={Seat} alt="seat" />
         </Grid>
       </Grid>
