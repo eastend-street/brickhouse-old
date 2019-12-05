@@ -9,6 +9,7 @@ const About: React.FC = () => {
     <div className="about">
       <Grid container>
         <Grid item xs={12} sm={5} className="about___left-grid">
+          <div className="shape"></div>
           <h2>
             Brickhouse Ventures invests in Esports, Sports &amp; Entertainment
             Technologies.

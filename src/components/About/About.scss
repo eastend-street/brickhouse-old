@@ -1,10 +1,11 @@
 .about {
   &___left-grid {
+    position: relative;
     h2 {
       font-size: 2rem;
       font-size: bold;
       width: 60%;
-      padding: 2rem 0 0 2rem;
+      padding: 3rem 0 0 3rem;
     }
     .message1 {
       background-color: #b1b7b9;
@@ -22,6 +23,15 @@
       padding: 1.5rem 1rem;
       box-shadow: -1rem 1rem;
       text-align: right;
+    }
+    .shape {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 10rem;
+      height: 10rem;
+      border-top: 0.6rem solid #77C8EA;
+      border-left: 0.6rem solid #068DC2;
     }
   }
 }
