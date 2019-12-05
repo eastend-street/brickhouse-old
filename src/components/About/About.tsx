@@ -8,7 +8,7 @@ const About: React.FC = () => {
   return (
     <div className="about">
       <Grid container>
-        <Grid item xs={12} sm={5} className="about___left-grid">
+        <Grid item sm={12} md={5} className="about___left-grid">
           <div className="shape"></div>
           <h2>
             Brickhouse Ventures invests in Esports, Sports &amp; Entertainment
@@ -23,7 +23,7 @@ const About: React.FC = () => {
             strategy
           </div>
         </Grid>
-        <Grid item xs={12} sm={7}>
+        <Grid item sm={12} md={7}>
           <RightSection />
         </Grid>
       </Grid>

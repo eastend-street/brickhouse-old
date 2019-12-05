@@ -1,3 +1,5 @@
+@import "../../assets/sass/mixin";
+
 .about {
   &___left-grid {
     position: relative;
@@ -6,6 +8,9 @@
       font-size: bold;
       width: 60%;
       padding: 3rem 0 0 3rem;
+      @include mq(sm) {
+        font-size: 1.7rem;
+      }
     }
     .message1 {
       background-color: #b1b7b9;
@@ -14,6 +19,12 @@
       width: 70%;
       padding: 1rem;
       box-shadow: 1rem 1rem;
+      @include mq(sm) {
+        font-size: 1.2rem;
+      }
+      @include mq(xs) {
+        margin-top: 4rem;
+      }
     }
     .message2 {
       background-color: #b1b7b9;
@@ -23,6 +34,10 @@
       padding: 1.5rem 1rem;
       box-shadow: -1rem 1rem;
       text-align: right;
+      @include mq(sm) {
+        padding: 1rem;
+        font-size: 1.2rem;
+      }
     }
     .shape {
       position: absolute;
@@ -30,8 +45,8 @@
       left: 1rem;
       width: 10rem;
       height: 10rem;
-      border-top: 0.6rem solid #77C8EA;
-      border-left: 0.6rem solid #068DC2;
+      border-top: 0.6rem solid #77c8ea;
+      border-left: 0.6rem solid #068dc2;
     }
   }
 }
