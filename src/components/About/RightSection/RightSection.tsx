@@ -26,7 +26,7 @@ const RightSection: React.FC = () => {
         </Grid>
       </Grid>
       <Grid container justify="flex-end">
-        <Grid item xs={6} sm={7} md={6} className="seat-photo-grid">
+        <Grid item xs={6} sm={7} className="seat-photo-grid">
           <img src={Seat} alt="seat" />
         </Grid>
       </Grid>
