@@ -3,7 +3,7 @@ import "./Footer.scss";
 import facebook from "./resource/icons-facebook.png";
 import instagram from "./resource/icons-instagram.png";
 import twitter from "./resource/icons-twitter.png";
-import logo from "./resource/logo.png";
+import logo from "./resource/logo.svg";
 
 const Footer: React.FC = () => {
   return (
