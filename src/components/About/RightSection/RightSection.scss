@@ -1,0 +1,65 @@
+@import "../../../assets/sass/mixin";
+
+.right-section {
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  .message1-grid,
+  .message2-grid {
+    font-size: 1.5rem;
+    padding: 4rem 2rem;
+    h3 {
+      text-align: center;
+    }
+    @include mq(xs) {
+      font-size: 1.2rem;
+      padding: 2rem;
+    }
+  }
+  .tennis-photo-grid {
+    max-height: 17rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    @include mq(xs) {
+      max-height: 13rem;
+    }
+  }
+  .seat-photo-grid {
+    max-height: 10rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    @include mq(sm) {
+      max-height: 15rem;
+    }
+  }
+  .wrap-basketball-photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 25rem;
+    margin-bottom: -3px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    @include mq(sm) {
+      max-width: 27rem;
+    }
+    @include mq(xsm) {
+      max-width: 23rem;
+    }
+    @include mq(xs) {
+      max-width: 20rem;
+    }
+    @include mq(xxs) {
+      max-width: 16rem;
+    }
+    @include mq(xxxs) {
+      max-width: 14rem;
+    }
+  }
+}
