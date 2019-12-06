@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Footer.scss";
 import facebook from "./resource/icons-facebook.png";
 import instagram from "./resource/icons-instagram.png";
@@ -14,10 +15,22 @@ const Footer: React.FC = () => {
             <div>
               <h2>Company</h2>
               <hr />
-              <p>Team</p>
-              <p>Home</p>
-              <p>Contact</p>
-              <p>Press</p>
+              <div className="footer__menu">
+                <ul>
+                  <li>
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Team</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Press</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Contact</NavLink>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="phone-style">
               <h2>Phone</h2>
