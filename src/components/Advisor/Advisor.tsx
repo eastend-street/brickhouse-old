@@ -9,7 +9,7 @@ const Advisor: React.FC = () => {
                     Network That Works,
                 </p>
                 <p className="title-text-2">
-                    For you
+                    For You.
                 </p>
 
             </div>
