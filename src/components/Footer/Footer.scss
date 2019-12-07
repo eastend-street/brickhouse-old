@@ -7,6 +7,10 @@
   font-family: roboto;
 }
 
+.copyright {
+  padding: 3%;
+}
+
 .company-phone {
   display: flex;
 }
@@ -49,4 +53,15 @@
 .footer__menu a {
   text-decoration: none;
   color: white;
+}
+
+
+/*-----------------mobile---------------*/
+
+@media only screen and (max-width: 768px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    padding: 14%;
+  }
 }
