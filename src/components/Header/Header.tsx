@@ -20,11 +20,12 @@ const Header: React.FC = () => {
           <li>
             <NavLink to="/press">Press</NavLink>
           </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
         </ul>
-        <Burger isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} className="header__menu--hamburger"/>
+        <Burger
+          isOpen={isOpen}
+          onClick={() => setIsOpen(!isOpen)}
+          className="header__menu--hamburger"
+        />
       </div>
       {isOpen && (
         <>
@@ -39,9 +40,6 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <NavLink to="/press">Press</NavLink>
-              </li>
-              <li>
-                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>
