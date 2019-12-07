@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Footer.scss";
 import facebook from "./resource/icons-facebook.png";
 import instagram from "./resource/icons-instagram.png";
@@ -8,16 +9,28 @@ import logo from "./resource/logo.svg";
 const Footer: React.FC = () => {
   return (
     <>
-      <footer className="Footer">
-        <div className="first-content">
+      <footer className="Footer parent">
+        <div className="first-content div1">
           <div className="company-phone">
             <div>
               <h2>Company</h2>
               <hr />
-              <p>Team</p>
-              <p>Home</p>
-              <p>Contact</p>
-              <p>Press</p>
+              <div className="footer__menu">
+                <ul>
+                  <li>
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Team</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Press</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/">Contact</NavLink>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="phone-style">
               <h2>Phone</h2>
@@ -33,11 +46,11 @@ const Footer: React.FC = () => {
             <img src={twitter} alt="Twitter" width="20%" />
           </div>
         </div>
-        <div className="logo">
+        <div className="logo div2">
           <img src={logo} alt="Braicklogo" width="50%" />
-          <p>Copyright © 2019 Brickhouse Inc. All rights reserved.</p>
+          <p className="copyright">Copyright © 2019 Brickhouse Inc. All rights reserved.</p>
         </div>
-        <div className="flash">
+        <div className="flash div3">
           <div className="address">
             <h2>Toronto</h2>
             <hr />
