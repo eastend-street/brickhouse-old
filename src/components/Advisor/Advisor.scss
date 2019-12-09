@@ -11,7 +11,7 @@ body{
     ;
     background-repeat: no-repeat;
     background-position: top right, bottom left, 70% 10%;
-    background-size: 25%,25%, 10%;
+    background-size: 300px,25%, 10%;
 }
 
 .title-wrapper{
@@ -51,9 +51,16 @@ body{
     hr {
         width: 80%;
     }
+
     @include mq(xsm){
         display: flex;
-        width: 120%;
+        width: 100%;
         align-items: center;
+    }
+
+    @include mq(xxs) {
+        display: flex;
+        width: 110%;
+        // align-items: center;
     }
 }
