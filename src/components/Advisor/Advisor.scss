@@ -7,10 +7,11 @@ body{
 .site {
     background-image: url("../../assets/images/World.svg"),
     url("../../assets/images/Moon.svg"),
-    url("../../assets/images/Satellit.svg")
+    url("../../assets/images/Satellit.svg"),
+    url("../../assets/images/Lines.svg")
     ;
     background-repeat: no-repeat;
-    background-position: top right, bottom left, 70% 10%;
+    background-position: top right, bottom left, 60% 10%, 90% 30%;
     background-size: 350px,25%, 10%;
 }
 
@@ -26,7 +27,7 @@ body{
 }
 
 .advisor-wrapper{
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap-reverse;
 

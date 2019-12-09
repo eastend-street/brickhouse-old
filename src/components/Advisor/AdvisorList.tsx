@@ -4,11 +4,15 @@ export const AdvisorList = [
         location: 'Chicago'
     },
     {
-        name: 'Jas Bargy',
-        location: 'Vancouver/NYC'
+        name: 'Rebecca Longawa',
+        location: 'Minneapolis'
     },
     {
         name: 'Joseph Clemko',
+        location: 'Dallas'
+    },
+    {
+        name: 'Jon Lee',
         location: 'Dallas'
     },
     {
@@ -20,8 +24,8 @@ export const AdvisorList = [
         location: 'LA'
     },
     {
-        name: 'Brodie Gunning',
-        location: 'Vancouver'
+        name: 'Robert Sacre',
+        location: 'Washington'
     },
     {
         name: 'Dion Pouncil',
@@ -32,7 +36,7 @@ export const AdvisorList = [
         location: 'Vancouver'
     },
     {
-        name: 'Tarrnie Williams',
+        name: 'Tarrnie Williams Jr.',
         location: 'Vancouver'
     },
     {
@@ -47,4 +51,13 @@ export const AdvisorList = [
         name: 'Anna Farrant',
         location: 'Vancouver'
     },
+    {
+        name: 'Brodie Gunning',
+        location: 'Vancouver'
+    },
+    {
+        name: 'Adam Larry',
+        location: 'Toronto'
+    },
+    
 ]
