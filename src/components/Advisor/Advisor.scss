@@ -11,7 +11,7 @@ body{
     ;
     background-repeat: no-repeat;
     background-position: top right, bottom left, 70% 10%;
-    background-size: 300px,25%, 10%;
+    background-size: 350px,25%, 10%;
 }
 
 .title-wrapper{
@@ -60,7 +60,10 @@ body{
 
     @include mq(xxs) {
         display: flex;
-        width: 110%;
+        width: 100%;
         // align-items: center;
+    }
+
+    @include mq(lg) {
     }
 }
