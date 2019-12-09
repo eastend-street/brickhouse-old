@@ -1,3 +1,5 @@
+@import "../../assets/sass/mixin";
+
 body{
     margin:0;
 }
@@ -27,11 +29,6 @@ body{
     width: 80%;
     display: flex;
     flex-wrap: wrap-reverse;
-    // display:grid;
-    // grid-template-columns: repeat(5,100px);
-    // grid-template-rows: repeat(3,auto);
-    // grid-row-gap: 50px;
-    // grid-column-gap: 50px;
 
     .advisor-card{
         border-radius: 30px;
@@ -53,5 +50,10 @@ body{
 
     hr {
         width: 80%;
+    }
+    @include mq(xsm){
+        display: flex;
+        width: 120%;
+        align-items: center;
     }
 }

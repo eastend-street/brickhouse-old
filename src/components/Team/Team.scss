@@ -8,9 +8,9 @@
     background-color:#068DC2;
     box-shadow: 14px 7px 0px 0px  rgba(123,202,235,0.78);
     margin-bottom: 10px;
-    @include mq(xxxs){
-        .person-text {display: none;}
-    }
+    // @include mq(xxxs){
+    //     .person-text {display: none;}
+    // }
 
 }
 
@@ -33,9 +33,9 @@
 }
 
 .person-text{
-    color: white;
-    font-size: 0.9em;
-    padding-top: 5%;
+    color: black;
+    font-size: 1.1em;
+    padding-top: 3%;
     padding-left: 10px;
     overflow: scroll;
     -ms-overflow-style: none;
@@ -80,6 +80,25 @@
     }
 }
 
+.person-text-middle {
+    color: white;
+    font-size: 1.1em;
+    padding-top: 3%;
+    padding-left: 10px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    @include mq(xsm) {
+        visibility: hidden;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
 .team-title {
     position: relative;
     clip-path: polygon(0 0,80% 0, 100% 100%, 0 100%);
@@ -113,13 +132,3 @@
         align-items: center;
     }
 }
-
-// @media only screen and (max-width: 699px) {
-//     .person-text{
-//         visibility: hidden;
-
-//     }
-//     .person-text:hover {
-//         visibility: collapse;
-//     }
-// }

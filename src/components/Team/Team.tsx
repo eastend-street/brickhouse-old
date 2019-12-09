@@ -27,7 +27,7 @@ const Team: React.FC = () => {
        structure and regulatory compliance." 
         />
         <div className="person-place-middle">
-        <div className="person-text">
+        <div className="person-text-middle">
                 <p>
                 Mr. Smyl has over 8 years of capital markets and entrepreneur experience with his
                 focus on building and financing start-ups in the technology, cannabis, video game,
