@@ -6,6 +6,8 @@ import anime from "animejs";
 import "./Home.scss";
 
 import Top from "../Top/Top";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 class Home extends React.Component {
 
