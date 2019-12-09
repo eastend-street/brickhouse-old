@@ -9,7 +9,7 @@ const Location: React.FC = () => {
   return (
     <div className="location">
       <Grid container>
-        <Grid item xs={12} sm={6} className="location__wrap-photo-grid">
+        <Grid item xs={12} sm={6} className="location__wrap-van-photo-grid">
           <img src={VancouverLogo} alt="vancouver logo" />
         </Grid>
         <Grid item xs={12} sm={6} className="location__vancouver-grid">
@@ -46,7 +46,7 @@ const Location: React.FC = () => {
             <span>604-785-4229</span>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6} className="location__wrap-photo-grid">
+        <Grid item xs={12} sm={6} className="location__wrap-toronto-photo-grid">
           <img src={TorontoLogo} alt="toronto logo" />
         </Grid>
       </Grid>
