@@ -9,10 +9,10 @@ const Contact: React.FC = () => {
     <div className="contact">
       <h2>Contact us</h2>
       <Grid container>
-        <Grid item xs={12} sm={5}>
+        <Grid item xs={12} md={5}>
           <ContactForm/>
         </Grid>
-        <Grid item xs={12} sm={7}>
+        <Grid item xs={12} md={7}>
           <Location />
         </Grid>
       </Grid>
