@@ -21,6 +21,9 @@ const App: React.FC = () => {
         <Route path="/team" exact component={Team} />
         <Route path="/Advisor" exact component={Advisor} />
         <Route  component={NotFound} />
+        <Route path="/team" exact component={NotFound} />
+        <Route path="/press" exact component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </BrowserRouter>

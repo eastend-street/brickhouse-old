@@ -8,7 +8,6 @@
     background-color:#068DC2;
     box-shadow: 14px 7px 0px 0px  rgba(123,202,235,0.78);
     margin-bottom: 10px;
-
     @include mq(xxxs){
         .person-text {display: none;}
     }
@@ -42,14 +41,15 @@
     -ms-overflow-style: none;
     
     /* Hide scrollbar for Chrome, Safari and Opera */
-    &:-webkit-scrollbar {
-        display: none;
-    }
-    
     @include mq(xsm) {
         visibility: hidden;
     }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
+
 
 .person-place-middle {
     width: 60%;
@@ -61,9 +61,6 @@
     margin-bottom: 10px;
     justify-content: flex-end;
     float: right;
-    @include mq(xxxs){
-        .person-text {display: none;}
-    }
 }
 .person-img-field-middle {
     width: 200px;
