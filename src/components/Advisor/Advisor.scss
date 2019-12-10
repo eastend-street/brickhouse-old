@@ -44,6 +44,13 @@ body{
         .advisor-text {
             padding-top: 5%;
         }
+
+        @include mq(xxs) {
+            width: 137px;
+        }
+        @include mq(xxxs) {
+            width: 120px;
+        }
     }
     .advisor-img {
         padding-top: 8px;
@@ -57,17 +64,18 @@ body{
         display: flex;
         width: 80%;
         align-items: center;
+        justify-content: center;
     }
 
     @include mq(xxs) {
         display: flex;
         width: 100%;
-        // align-items: center;
+        justify-content: center;
     }
 
     @include mq(xxxs) {
         display: flex;
-        width: 105%;
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
