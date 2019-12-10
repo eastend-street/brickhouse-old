@@ -73,7 +73,7 @@ class Top extends React.Component {
         },
         {
           value:
-            "M2 29.2587C308 -64.5 319.104 131.937 596.585 218.65C662.072 239.115 1047.5 288.003 1291.63 142.746C1312.5 130.33 1364.56 92.0689 1436 111.119"
+          "M1 5.25608C102.398 -9.44024 318.104 107.935 595.585 194.648C661.072 215.112 1131.43 305.528 1290.63 118.744C1306.38 100.264 1363.56 68.0663 1435 87.1168"
         }
       ]
     });
@@ -119,7 +119,7 @@ class Top extends React.Component {
         <div className="top__text">
           <h2>
             A Modern Approach <br />
-            To The Value Creation
+            To Value Creation
           </h2>
         </div>
       </div>

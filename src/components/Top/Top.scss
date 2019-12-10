@@ -1,21 +1,35 @@
+@import "../../assets/sass/mixin";
 
 .top {
     height: 100vh;
     // background: url("../../assets/images/image\ 9.png") no-repeat center center/cover;
     background: black;
     display: flex;
+    overflow: hidden;
+    @include mq(xs) {
+        flex-direction: column;
+    }
 }
 .top__logo {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @include mq(xs){
+        // justify-content: center;
+    }
 }
 .top__logo img {
     width: 500px;
     height: 200px;
     margin-bottom: 8rem;
     margin-left:5rem ;
+    @include mq(xs) {
+        width: 400px;
+        // height: 150px;
+        margin-left:0;
+        margin-bottom: 2rem;
+    }
 }
 .top__text {
     flex-grow: 1;
@@ -28,10 +42,16 @@
     align-items: center;
     margin-right: 5rem;
     font-weight: 500;
+    @include mq(xs) {
+        font-size: 1.75rem;
+        margin-right: 1rem;
+        align-items: flex-start;
+    }
 }
 
 #wave-1, #wave-2 {
     position: absolute;
     margin-top: 55vh;
     width: 100vw;
+    height:300px;
 }
