@@ -81,5 +81,10 @@ body{
     }
 
     @include mq(lg) {
+        width: 50%;
+    }
+
+    @include mq(md) {
+        width: 66%;
     }
 }
