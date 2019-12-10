@@ -2,7 +2,7 @@
 
 @keyframes fadeIn {
   from {
-    width:0;
+    width: 0;
   }
   to {
     width: 50vh;
@@ -11,7 +11,7 @@
 
 @keyframes fadeOut {
   from {
-    width:50vh;
+    width: 50vh;
   }
   to {
     width: 0;
@@ -55,7 +55,7 @@
       top: 0;
       right: 1rem;
       display: none;
-      z-index: 1;
+      z-index: 2;
       @include mq(xs) {
         display: block;
       }
@@ -63,6 +63,7 @@
   }
 
   &__hidden-menu {
+    z-index: 1;
     display: none;
     position: fixed;
     background-color: #000;

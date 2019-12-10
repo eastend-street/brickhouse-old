@@ -1,7 +1,13 @@
 # Brickhouse company homepage project
-This is a team project to make company homepage website.
+This is a team project to make company homepage website.  
 
-# Technologies
+[Brickhouse website](https://flamboyant-golick-8bc858.netlify.com/)
+
+[![brickhouse](https://user-images.githubusercontent.com/43656115/70483555-ba89c480-1a9d-11ea-9b1f-dacb0fdd5e1b.png)](https://flamboyant-golick-8bc858.netlify.com/)
+
+<br/>
+
+## Technologies
 - React.js
 - React hooks
 - React router
@@ -10,3 +16,10 @@ This is a team project to make company homepage website.
 - HTML5
 - CSS3
 - Sass
+
+## Authors
+- [Paulo](https://github.com/PauloViga22)
+- [Cedric](https://github.com/Cediba)
+- [Gustavo](https://github.com/Guntzel00)
+- [Newaj](https://github.com/NewajAhmed)
+- [Jun](https://github.com/eastend-street)
