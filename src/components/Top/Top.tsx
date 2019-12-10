@@ -119,7 +119,7 @@ class Top extends React.Component {
         <div className="top__text">
           <h2>
             A Modern Approach <br />
-            To The Value Creation
+            To Value Creation
           </h2>
         </div>
       </div>
