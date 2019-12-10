@@ -1,0 +1,99 @@
+@import "../../assets/sass/mixin";
+
+@keyframes fadeIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50vh;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    width: 50vh;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.header {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  background-color: #000;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__menu {
+    margin-right: 1rem;
+    ul {
+      display: flex;
+      li {
+        margin: 0 1rem;
+      }
+      @include mq(xs) {
+        display: none;
+      }
+    }
+    &--hamburger {
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      display: none;
+      z-index: 2;
+      @include mq(xs) {
+        display: block;
+      }
+    }
+  }
+
+  &__hidden-menu {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    right: 0;
+    width: 50vh;
+    height: 100%;
+    color: #fff;
+    padding-top: 3rem;
+    text-align: center;
+    animation: fadeIn 0.5s ease 0s 1 forwards;
+    @include mq(xs) {
+      display: block;
+    }
+    li {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
+  }
+  &__mask {
+    display: none;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    @include mq(xs) {
+      display: block;
+    }
+  }
+}

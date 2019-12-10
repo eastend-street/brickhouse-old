@@ -1,0 +1,41 @@
+@import "../../assets/sass/mixin";
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  .wrap-form {
+    text-align: center;
+    input,
+    textarea {
+      border-radius: 0.3rem;
+      font-size: 1.3rem;
+      margin: 0.8rem 0;
+      padding: 0.7rem;
+      border: 0.05rem solid #068dc2;
+      width: 80%;
+      @include mq(sm) {
+        width: 60%;
+      }
+      @include mq(xs) {
+        width: 70%;
+      }
+    }
+    .submitButton {
+      color: #fff;
+      font-weight: bold;
+      padding: 0.5rem 0;
+      background-color: #068dc2;
+      border-radius: 0.5rem;
+      margin-top: 2rem;
+      width: 80%;
+      @include mq(sm) {
+        width: 60%;
+      }
+      @include mq(xs) {
+        width: 70%;
+      }
+    }
+  }
+}
