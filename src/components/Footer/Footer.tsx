@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
             <div className="phone-style">
               <h2>Phone</h2>
               <hr />
-              <a href="callto:1234567">Call 604.616.1514</a>
+              <a href="callto:1234567">604.616.1514</a>
               <br />
-              <a href="callto:1234567">Call 604.785.4229</a>
+              <a href="callto:1234567">604.785.4229</a>
             </div>
           </div>
           <div className="logos">

@@ -7,12 +7,12 @@ body{
 .site {
     background-image: url("../../assets/images/World.svg"),
     url("../../assets/images/Moon.svg"),
-    url("../../assets/images/Satellit.svg"),
-    url("../../assets/images/Lines.svg")
+    // url("../../assets/images/Satellit.svg"),
+    // url("../../assets/images/Lines.svg")
     ;
     background-repeat: no-repeat;
-    background-position: top right, bottom left, 60% 10%, 90% 30%;
-    background-size: 350px,25%, 10%;
+    background-position: top right, bottom left;
+    background-size: 55%,25%;
 }
 
 .title-wrapper{
@@ -27,7 +27,7 @@ body{
 }
 
 .advisor-wrapper{
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap-reverse;
 
@@ -44,6 +44,13 @@ body{
         .advisor-text {
             padding-top: 5%;
         }
+
+        @include mq(xxs) {
+            width: 137px;
+        }
+        @include mq(xxxs) {
+            width: 120px;
+        }
     }
     .advisor-img {
         padding-top: 8px;
@@ -55,16 +62,29 @@ body{
 
     @include mq(xsm){
         display: flex;
-        width: 100%;
+        width: 80%;
         align-items: center;
+        justify-content: center;
     }
 
     @include mq(xxs) {
         display: flex;
         width: 100%;
-        // align-items: center;
+        justify-content: center;
+    }
+
+    @include mq(xxxs) {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     @include mq(lg) {
+        width: 50%;
+    }
+
+    @include mq(md) {
+        width: 66%;
     }
 }
