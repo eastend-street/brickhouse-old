@@ -118,8 +118,7 @@ class Top extends React.Component {
         </svg>
         <div className="top__text">
           <h2>
-            A Modern Approach <br />
-            To Value Creation
+            A Modern Approach <span> To Value Creation</span>
           </h2>
         </div>
       </div>
