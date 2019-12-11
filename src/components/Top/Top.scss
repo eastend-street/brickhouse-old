@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: center;
     @include mq(xs){
-        // justify-content: center;
+        flex-grow: 0.75;
     }
 }
 .top__logo img {
@@ -24,11 +24,15 @@
     height: 200px;
     margin-bottom: 8rem;
     margin-left:5rem ;
+    @include mq(sm) {
+        margin-left:1rem;
+        margin-bottom: 20rem;
+    }
     @include mq(xs) {
         width: 400px;
         // height: 150px;
         margin-left:0;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
 }
 .top__text {
@@ -42,6 +46,11 @@
     align-items: center;
     margin-right: 5rem;
     font-weight: 500;
+    @include mq(sm) {
+        margin-right: 1rem;
+        flex-grow: 2;
+        font-size: 1.75rem;
+    }
     @include mq(xs) {
         font-size: 1.75rem;
         margin-right: 1rem;
@@ -49,9 +58,13 @@
     }
 }
 
+.top__text h2 span {
+    display: block;
+}
+
 #wave-1, #wave-2 {
     position: absolute;
     margin-top: 55vh;
     width: 100vw;
-    height:300px;
+    height:350px;
 }

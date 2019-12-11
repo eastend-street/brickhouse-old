@@ -1,3 +1,5 @@
+@import "../../assets/sass/mixin";
+
 .Footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -5,6 +7,13 @@
   background-color: black;
   padding: 1rem;
   font-family: roboto;
+  @include mq(xs) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-row: 1fr 1fr;
+    grid-template-areas: 
+    "contact locations"
+    "logo logo"
+  }
 }
 
 .copyright {
