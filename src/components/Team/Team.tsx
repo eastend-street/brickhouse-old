@@ -1,7 +1,7 @@
 import React from "react";
 import "./Team.scss";
 import PersonSection from "./PersonSection";
-import profilImage from "../../assets/images/profilImage.jpg";
+import profilImage from "../../assets/images/dummy-person-image.jpg";
 
 const Team: React.FC = () => {
   return (
