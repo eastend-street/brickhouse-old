@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Header.scss";
 
 import Burger from "@animated-burgers/burger-rotate";
@@ -12,16 +13,24 @@ const Header: React.FC = () => {
       <div className="header__menu">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <HashLink smooth={true} to="/">
+              Home
+            </HashLink>
           </li>
           <li>
-            <NavLink to="#team">Team</NavLink>
+            <HashLink smooth={true} to="#team">
+              Team
+            </HashLink>
           </li>
           <li>
-            <NavLink to="#press">Press</NavLink>
+            <HashLink smooth={true} to="#press">
+              Press
+            </HashLink>
           </li>
           <li>
-            <NavLink to="#contact">Contact</NavLink>
+            <HashLink smooth={true} to="#contact">
+              Contact
+            </HashLink>
           </li>
         </ul>
         <Burger

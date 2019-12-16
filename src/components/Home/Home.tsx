@@ -6,6 +6,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Press from "../Press/Press";
 import Team from "../Team/Team";
+// import Advisor from "../Advisor/Advisor";
 
 const Home: React.FC = () => {
   return (
