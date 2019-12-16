@@ -37,9 +37,9 @@ const renderPress = () => {
 
 const Press: React.FC = () => {
   return (
-    <div className="press">
+    <div id="press" className="press">
       <div className="press__inner">
-        <h1>Press</h1>
+        <h2>Press</h2>
         <Grid container>{renderPress()}</Grid>
       </div>
     </div>

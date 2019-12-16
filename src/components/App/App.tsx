@@ -16,8 +16,6 @@ const App: React.FC = () => {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Advisor" exact component={Advisor} />
-        <Route path="/team" exact component={Team} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

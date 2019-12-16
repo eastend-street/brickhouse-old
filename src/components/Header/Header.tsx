@@ -15,10 +15,13 @@ const Header: React.FC = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/team">Team</NavLink>
+            <NavLink to="#team">Team</NavLink>
           </li>
           <li>
-            <NavLink to="/press">Press</NavLink>
+            <NavLink to="#press">Press</NavLink>
+          </li>
+          <li>
+            <NavLink to="#contact">Contact</NavLink>
           </li>
         </ul>
         <Burger

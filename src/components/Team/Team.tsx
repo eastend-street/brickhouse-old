@@ -5,7 +5,7 @@ import profilImage from "../../assets/images/dummy-person-image.jpg";
 
 const Team: React.FC = () => {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <div className="team-title">
         <p className="team-text">Meet Our Team</p>
       </div>
@@ -75,13 +75,7 @@ const Team: React.FC = () => {
         developers, and ancillary entities; assisted multi-national brands authentically
         implement marketing campaigns; been consulted by major institutional banks on their
         prospective investments; and has developed a full-service law firm in a niche area that
-        is drastically under severed by traditional legal mechanisms. Evan has also committed
-        to contributing to the community by providing pro-bono legal services to a young
-        population of competitive gamers who are otherwise unable to afford legal assistance,
-        and by working with charitable organizations such as Autism Speaks, on initiatives
-        directed at using gaming as a platform to advance social good. Evan holds both a
-        Canadian and American law degree from University of Windsor School of Law and the
-        University of Detroit School of Law, respectively."
+        is drastically under severed by traditional legal mechanisms."
       />
     </div>
   );
