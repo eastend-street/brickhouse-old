@@ -8,12 +8,6 @@
   {
     "date": "12/10/2019",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    "image_url": "https://vignette.wikia.nocookie.net/characters/images/1/14/Brown.jpg/revision/latest?cb=20171016031121",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis facere iste sint ut atque eius unde! Repudiandae harum tempore animi asperiores ullam, eligendi corporis in labore laborum a ea eius."
-  },
-  {
-    "date": "12/10/2019",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     "image_url": "https://sherwin.scene7.com/is/image/sw/color-swatch?_tparam_size=250,250&layer=comp&_tparam_color=283849",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis facere iste sint ut atque eius unde! Repudiandae harum tempore animi asperiores ullam, eligendi corporis in labore laborum a ea eius."
   },
@@ -21,6 +15,12 @@
     "date": "12/10/2019",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     "image_url": "https://www.solidbackgrounds.com/images/2560x1440/2560x1440-davys-grey-solid-color-background.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis facere iste sint ut atque eius unde! Repudiandae harum tempore animi asperiores ullam, eligendi corporis in labore laborum a ea eius."
+  },
+  {
+    "date": "12/10/2019",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "image_url": "https://sherwin.scene7.com/is/image/sw/color-swatch?_tparam_size=250,250&layer=comp&_tparam_color=283849",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis facere iste sint ut atque eius unde! Repudiandae harum tempore animi asperiores ullam, eligendi corporis in labore laborum a ea eius."
   }
 ]

@@ -41,14 +41,18 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="logos">
-            <img src={facebook} alt="Facebook" width="20%" />
+            {/* <img src={facebook} alt="Facebook" width="20%" />
             <img src={instagram} alt="Instagram" width="20%" />
-            <img src={twitter} alt="Twitter" width="20%" />
+            <img src={twitter} alt="Twitter" width="20%" /> */}
           </div>
         </div>
         <div className="logo div2">
-          <img src={logo} alt="Braicklogo" width="50%" />
-          <p className="copyright">Copyright © 2019 Brickhouse Inc. All rights reserved.</p>
+          <div className="inner-div2">
+            <img src={logo} alt="BrickHouselogo" width="20%" />
+            <p className="copyright">
+              Copyright © 2019 Brickhouse Inc. All rights reserved.
+            </p>
+          </div>
         </div>
         <div className="flash div3">
           <div className="address">
