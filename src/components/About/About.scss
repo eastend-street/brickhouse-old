@@ -2,6 +2,7 @@
 
 .about {
   &___left-grid {
+    padding: 3rem 0;
     position: relative;
     h2 {
       font-size: 2rem;
@@ -41,7 +42,7 @@
     }
     .shape {
       position: absolute;
-      top: 1rem;
+      top: 4rem;
       left: 1rem;
       width: 10rem;
       height: 10rem;

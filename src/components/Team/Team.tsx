@@ -1,19 +1,19 @@
 import React from "react";
 import "./Team.scss";
 import PersonSection from "./PersonSection";
-import profilImage from "../../assets/images/profilImage.jpg";
+import profilImage from "../../assets/images/dummy-person-image.jpg";
 
 const Team: React.FC = () => {
   return (
     <div className="team">
       <div className="team-title">
-        <p className="team-text" >Meet Our Team</p> 
+        <p className="team-text">Meet Our Team</p>
       </div>
       <div className="team-shape"></div>
-        <PersonSection 
-        name="Matt Hoffar" 
-        location="Vancouver" 
-        text="                Mr. Hoffar has over 20 years experience in sports and the capital
+      <PersonSection
+        name="Matt Hoffar"
+        location="Vancouver"
+        text="Mr. Hoffar has over 20 years experience in sports and the capital
         markets. He worked 6 years in NBA for the team Vancouver Grizzlies,
        10 years as the founder and coach of a youth basketball program and
        15 years in trading, operations and marketing both at a brokerage firm
@@ -24,37 +24,47 @@ const Team: React.FC = () => {
        compliance and marketing. Currently as Managing Partner of a Venture
        Builder, he takes on varying leadership and advisory roles to technology
        start ups in areas such as business development, strategy, capital
-       structure and regulatory compliance." 
-        />
-        <div className="person-place-middle">
+       structure and regulatory compliance."
+      />
+      <div className="person-place-middle">
         <div className="person-text-middle">
-                <p>
-                Mr. Smyl has over 8 years of capital markets and entrepreneur experience with his
-                focus on building and financing start-ups in the technology, cannabis, video game,
-                esports, entertainment, heath care, and health & wellness industries of which he has
-                helped raise over $30 million CAD. In that time, he has gained over 7 years of
-                corporate director and management experience with both private and public
-                companies. He is also the founder and CEO of Final Stage Entertainment Inc., a
-                content production company with an academy nominated management team with
-                over 100+ years of experience in media and entertainment. The company focuses
-                on original content creation for the Millennial and Generation Z demographics. Prior
-                to the capital markets he spent 2 years working at the Senate of Canada under the
-                Honorable Senator Larry Campbell. Spencer is currently working to combine his
-                business networks in the sports, esports, politics, and finance to support the
-                strategic vision and mandate of Brickhouse Ventures.
-                </p>
-            </div>
-            <div className="person-img-field-middle">
-              <img className="person-img-middle" alt="profilpic" src={profilImage} height="170px"/>
-                <div>
-                  <p className="img-text-middle">Spencer Smyl,
-                  <hr/>
-                   Vancouver</p>
-                </div>
-            </div>
+          <p>
+            Mr. Smyl has over 8 years of capital markets and entrepreneur
+            experience with his focus on building and financing start-ups in the
+            technology, cannabis, video game, esports, entertainment, heath
+            care, and health & wellness industries of which he has helped raise
+            over $30 million CAD. In that time, he has gained over 7 years of
+            corporate director and management experience with both private and
+            public companies. He is also the founder and CEO of Final Stage
+            Entertainment Inc., a content production company with an academy
+            nominated management team with over 100+ years of experience in
+            media and entertainment. The company focuses on original content
+            creation for the Millennial and Generation Z demographics. Prior to
+            the capital markets he spent 2 years working at the Senate of Canada
+            under the Honorable Senator Larry Campbell. Spencer is currently
+            working to combine his business networks in the sports, esports,
+            politics, and finance to support the strategic vision and mandate of
+            Brickhouse Ventures.
+          </p>
         </div>
-        <PersonSection 
-        name="Evan Kubes" 
+        <div className="person-img-field-middle">
+          <img
+            className="person-img-middle"
+            alt="profilpic"
+            src={profilImage}
+            height="170px"
+          />
+          <div>
+            <p className="img-text-middle">
+              Spencer Smyl,
+              <hr />
+              Vancouver
+            </p>
+          </div>
+        </div>
+      </div>
+      <PersonSection
+        name="Evan Kubes"
         location="Toronto"
         text="Mr. Kubes is the President and Co-founder of MKM Group – Canada’s first, and one of
         the world’s most influential, Law Firms and Management Agencies dedicated
@@ -72,7 +82,7 @@ const Team: React.FC = () => {
         directed at using gaming as a platform to advance social good. Evan holds both a
         Canadian and American law degree from University of Windsor School of Law and the
         University of Detroit School of Law, respectively."
-        />
+      />
     </div>
   );
 };
