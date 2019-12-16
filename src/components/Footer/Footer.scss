@@ -8,11 +8,13 @@
   padding: 1rem;
   font-family: roboto;
   @include mq(xs) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-row: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-row: 1fr;
     grid-template-areas: 
-    "contact locations"
-    "logo logo"
+    "logo"
+    "locations"
+    "contact" 
   }
 }
 
@@ -39,6 +41,10 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  text-align: center;
+    @include mq (xs) {
+      grid-area: logo;
+    }
 }
 
 .first-content {
@@ -46,6 +52,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @include mq (xs) {
+    grid-area: contact;
+  }
+}
+
+.flash {
+  @include mq (xs) {
+    grid-area: locations;
+  }
 }
 
 .logos {
