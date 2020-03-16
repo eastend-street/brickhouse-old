@@ -1,5 +1,6 @@
 # [Old version] Company home page project
-⚠️This project is old and not under maintanance⚠️  
+⚠️This project is old and not under maintanance. I'm working on [new repository](https://github.com/WMAD-react/brickhouse) ⚠️  
+
 This is a team project to make company homepage website.  
 
 [Brickhouse website](https://flamboyant-golick-8bc858.netlify.com/)
